@@ -20,7 +20,7 @@ Vagrant.configure(2) do |config|
   # If you are already on a network using the 192.168.10.x subnet, this should be changed.
   # If you are running more than one VM through VirtualBox, different subnets should be used
   # for those as well. This includes other Vagrant boxes.
-  config.vm.network :private_network, ip: "192.168.10.10"
+  config.vm.network :private_network, ip: "192.168.100.100"
 
   # VirtualBox-specific configuration.
   config.vm.provider "virtualbox" do |vb|
