@@ -3,7 +3,7 @@
 
 # Ignore config files
 /config/*
-!/config/environment.yaml.sample
+!/config/environment.yaml
 
 # Ignore public directory
 /public/*

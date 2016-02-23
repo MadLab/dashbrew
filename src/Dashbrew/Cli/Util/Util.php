@@ -161,7 +161,7 @@ class Util {
         $options = array_merge([
           'stderr'  => true,
           'stdout'  => $output->isDebug(),
-          'timeout' => 60,
+          'timeout' => 120,
           'input'   => null,
           'env'     => null,
           'cwd'     => null,

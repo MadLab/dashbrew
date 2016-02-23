@@ -37,7 +37,7 @@ Vagrant.configure(2) do |config|
   # The first parameter is a path to a directory on the host machine.
   # The second parameter must be an absolute path of where to share the folder within the guest machine.
   # Finally the third parameter is a set of non-required options to configure synced folders.
-  config.vm.synced_folder "public/", "/var/www/", group: 'www-data', :owner => "www-data", mount_options: ["dmode=775", "fmode=764"]
+  config.vm.synced_folder "public/", "/var/www/", group: 'www-data', :owner => "www-data", mount_options: ["dmode=776", "fmode=666"]
 
   # Run the main shell provisioner.
   config.vm.provision 'shell', run: 'always' do |s|
