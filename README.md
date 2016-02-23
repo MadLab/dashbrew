@@ -34,7 +34,10 @@ $ git clone --recursive git://github.com/madlab/dashbrew.git
 Once you have cloned the Dashbrew Repository, start the Vagrant environment by running ``vagrant up`` command from the Dashbrew directory in your terminal. Vagrant will setup the virtual machine and boot it for the first time. This could take a while on the first run.
 
 Once provisioned, PHP will not quite be working yet. SSH into your vagrant box using ``vagrant ssh`` then run the following command to create the PHP7 config file: 
-``mv /opt/phpbrew/php/7.0.0/etc/php-fpm.d/www.conf.default /opt/phpbrew/php/7.0.0/etc/php-fpm.d/www.conf``
+
+```
+$ mv /opt/phpbrew/php/7.0.0/etc/php-fpm.d/www.conf.default /opt/phpbrew/php/7.0.0/etc/php-fpm.d/www.conf
+```
 
 ### Launch the Dashbrew Dashboard
 
