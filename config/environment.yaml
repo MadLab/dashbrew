@@ -17,7 +17,7 @@ php::builds:
   5.6.0:
       installed: true
       default: true
-      variants: default+fpm+dbs
+      variants: default+fpm+dbs+iconv
       extensions:
         xdebug:
           enabled: true
@@ -30,7 +30,7 @@ php::builds:
         autostart: true
   7.0.0:
     installed: true
-    variants: default+fpm+dbs
+    variants: default+fpm+dbs+iconv
     extensions:
       xdebug:
         enabled: true
